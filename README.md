@@ -60,7 +60,9 @@ sudo update-initramfs -u
 ```
 
 Complete!
+
 After completing the installation steps, simply reboot your system to experience the sleek Djinn boot splash during startup.
+
 Or discover Djinn's charm without a complete system restart:
 
 ```
