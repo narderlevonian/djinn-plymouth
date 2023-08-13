@@ -3,6 +3,7 @@ Window.SetBackgroundBottomColor (0, 0, 0);
 
 totalCount = 320;
 lastFrameIndex = totalCount-1;
+speedUpCoefficient = 2;
 
 for (i = 0; i < totalCount; i++)
     image[i] = Image("frames/frame" + i + ".png");
@@ -14,7 +15,7 @@ sprite.SetY(Window.GetHeight() / 2 - image[1].GetHeight() / 2);
 progress = 0;
 fun refresh_callback () {
     if (progress < totalCount) {
-        sprite.SetImage(image[progress]);
+        sprite.SetImage(image[progress * speedUpCoefficient]);
     } else {
         sprite.SetImage(image[lastFrameIndex]);
     }
