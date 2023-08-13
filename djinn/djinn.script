@@ -10,7 +10,7 @@ sprite.SetY(Window.GetHeight() / 2 - image[1].GetHeight() / 2);
 
 progress = 0;
 fun refresh_callback () {
-    sprite.SetImage(image[Math.Int(progress) % 256]);
+    sprite.SetImage(image[Math.Int(progress * 2) % 256]);
     progress++;
 }
   
