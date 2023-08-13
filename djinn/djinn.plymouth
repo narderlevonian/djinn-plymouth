@@ -4,5 +4,5 @@ Description=Graphical boot process theme for Debian that features a blank backgr
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/djinn
+ImageDir=/usr/share/plymouth/themes/djinn/
 ScriptFile=/usr/share/plymouth/themes/djinn/djinn.script

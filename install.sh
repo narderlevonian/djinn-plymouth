@@ -21,11 +21,13 @@ read -p "Enter your choice (1/2): " choice
 
 case "$choice" in
     1)
+        sudo cp -r djinn /usr/share/plymouth/themes/
         sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/djinn/djinn.plymouth 100
         sudo update-alternatives --config default.plymouth
         sudo update-initramfs -u
         ;;
     2)
+        sudo cp -r djinn /usr/share/plymouth/themes/
         sudo plymouth-set-default-theme djinn
         sudo update-initramfs -u
         ;;
@@ -45,4 +47,3 @@ if [[ "$test_choice" =~ ^[Yy]$ ]]; then
 fi
 
 echo "Installation and testing completed."
-
