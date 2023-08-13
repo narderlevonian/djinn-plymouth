@@ -68,3 +68,6 @@ Or discover Djinn's charm without a complete system restart:
 ```
 sudo plymouthd; sudo plymouth --show-splash; sleep 5; sudo killall plymouthd
 ```
+# Customization
+
+It is possible to adjust the animation speed using the `speedUpCoefficient` variable, which is an integer value. Prior to this, the `djinn.script` file needs to be edited to align the progress filling with the actual system boot time.
