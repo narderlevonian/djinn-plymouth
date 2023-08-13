@@ -8,9 +8,9 @@ Djinn is an aesthetically pleasing custom boot splash screen tailored for Debian
 
 # Installation
 
-Follow next steps to install the Djinn on your Debian-based system.
+Please proceed with the installation of Djinn on your Debian-based system by following these instructions.
 
-Begin by cloning the repository and moving into the Djinn directory:
+Start by duplicating the repository and navigating to the Djinn folder:
 
 ```
 git clone https://github.com/narderlevonian/djinn-plymouth.git
@@ -30,13 +30,13 @@ sudo ./install.sh
 
 ## Manual Installation
 
-If you prefer an manual installation, you can first copy the 'djinn' directory to the plymouth themes folder:
+If you would rather perform a manual installation, start by copying the 'djinn' directory into the plymouth themes folder:
 
 ```
 sudo cp -r djinn /usr/share/plymouth/themes/
 ```
 
-Select your installation method based on your system's needs:
+Afterwards, choose your installation method according to the requirements of your system:
 
 **Method 1. Using `update-alternatives`**
 
@@ -59,6 +59,7 @@ And finally, update your initramfs to integrate the changes:
 sudo update-initramfs -u
 ```
 
+Complete!
 After completing the installation steps, simply reboot your system to experience the sleek Djinn boot splash during startup.
 Or discover Djinn's charm without a complete system restart:
 
