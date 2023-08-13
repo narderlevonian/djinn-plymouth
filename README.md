@@ -2,6 +2,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+![Djinn Plymouth Theme](https://github.com/narderlevonian/djinn-plymouth/raw/main/djinn-plymouth.png)
+
 Djinn is an aesthetically pleasing custom boot splash screen tailored for Debian-based operating systems. With its striking cherry-colored Debian logo accompanied by a linear progress indicator, this theme adds a touch of refinement to your system's boot-up process.
 
 # Installation
