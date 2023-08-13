@@ -25,6 +25,17 @@ sudo cp -r djinn /usr/share/plymouth/themes/
 
 3. Select your preffered method to set Djinn as your default Plymouth theme.
 
+**Automatic Installation**
+
+If you prefer an automatic installation, you can use the provided script:
+
+```
+chmod +x install.sh
+sudo ./install.sh
+```
+
+Or use manual installation:
+
 **Method 1. Using `update-alternatives`**
 
 ```
@@ -32,6 +43,8 @@ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth d
 sudo update-alternatives --config default.plymouth
 sudo update-initramfs -u
 ```
+
+If the first method doesn't work as expected, despite being recommended by the community, you can try the second method, which you mentioned is known to work.
 
 **Method 2. Using `plymouth-set-default-theme`**
 
